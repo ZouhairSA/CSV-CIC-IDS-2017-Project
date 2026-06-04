@@ -1,6 +1,14 @@
-﻿cicids_env/
-results/
+﻿# Ignore virtual env and raw data
 cicids_env/
-results/
 data/raw/
 archive.zip
+
+# Ignore large results artifacts but allow small figures used in README
+results/*.parquet
+results/*.csv.gz
+results/train*.parquet
+results/*.csv
+
+# Allow plot PNGs and figures directory to be committed so they show on GitHub
+!results/plot_*.png
+!results/figures/
