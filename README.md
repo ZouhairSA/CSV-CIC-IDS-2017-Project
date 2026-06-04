@@ -59,6 +59,16 @@ latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode -halt-on-error" result
   - `results/plot_accuracy.png`
   - `results/plot_f1_score.png`
 
+- Aperçu (les images sont incluses depuis `results/` et s'affichent directement sur GitHub) :
+
+  ![Temps d'entraînement](results/plot_train_time_seconds.png)
+
+  ![Nombre d'itérations](results/plot_n_iterations.png)
+
+  ![Accuracy](results/plot_accuracy.png)
+
+  ![F1-Score](results/plot_f1_score.png)
+
 - Pour inclure vos propres captures d'écran ou photos d'entraînement : placez-les dans `results/figures/` puis ajoutez-les au dépôt.
   - IMPORTANT : si les images sont volumineuses, utilisez Git LFS plutôt que de committer directement. Installer et initialiser Git LFS :
 
