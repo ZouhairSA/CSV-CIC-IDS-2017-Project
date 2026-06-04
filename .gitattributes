@@ -1,4 +1,8 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+data/* filter=lfs diff=lfs merge=lfs -text
+data_raw/* filter=lfs diff=lfs merge=lfs -text
+cicids_env/* filter=lfs diff=lfs merge=lfs -text
+results/* filter=lfs diff=lfs merge=lfs -text
 data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
 data_raw/*.csv filter=lfs diff=lfs merge=lfs -text
 archive.zip filter=lfs diff=lfs merge=lfs -text
-results/* filter=lfs diff=lfs merge=lfs -text
