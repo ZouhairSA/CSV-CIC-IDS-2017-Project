@@ -9,6 +9,9 @@ results/*.csv.gz
 results/train*.parquet
 results/*.csv
 
-# Allow plot PNGs and figures directory to be committed so they show on GitHub
+# Allow specific small artifacts (plots, figures and subset files)
 !results/plot_*.png
 !results/figures/
+!results/subset_*.parquet
+!results/subset_*.csv.gz
+!results/subset_*.csv
